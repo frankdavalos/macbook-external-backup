@@ -17,15 +17,15 @@ A simple, automated solution to back up data from a primary external drive to a 
 
 macbook-external-backup
 ├── backup-script
-│   ├── backup_script.sh
-│   └── com.user.backupscript.plist
+│   ├── backup_script.sh
+│   └── com.user.backupscript.plist
 ├── docs
-│   ├── admin_guide.md
-│   ├── troubleshooting.md
-│   └── user_guide.md
+│   ├── admin_guide.md
+│   ├── troubleshooting.md
+│   └── user_guide.md
 ├── examples
-│   ├── example_log.txt
-│   └── plist_template.plist
+│   ├── example_log.txt
+│   └── plist_template.plist
 └── tests
     ├── test_backup.sh
     └── test_environment.md
