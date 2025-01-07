@@ -15,6 +15,7 @@ A simple, automated solution to back up data from a primary external drive to a 
 
 ## Project Structure
 
+```
 macbook-external-backup
 ├── backup-script
 │   ├── backup_script.sh
@@ -29,3 +30,4 @@ macbook-external-backup
 └── tests
     ├── test_backup.sh
     └── test_environment.md
+```
