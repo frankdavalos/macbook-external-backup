@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.backupscript</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/username/backup_script.sh</string>
+    </array>
+
+    <key>WatchPaths</key>
+    <array>
+        <string>/Volumes/PrimaryDrive</string>
+        <string>/Volumes/BackupDrive</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/username/backup_stdout.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/username/backup_stderr.log</string>
+</dict>
+</plist>
